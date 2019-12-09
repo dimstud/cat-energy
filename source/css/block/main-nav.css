@@ -1,0 +1,6 @@
+.main-nav {
+  width: 320px;
+}
+.main-nav__list.site-list {
+  width: auto;
+}
