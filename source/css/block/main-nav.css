@@ -22,3 +22,13 @@
 
 
 }
+
+@media (min-width:1440px){
+.main-nav {
+  width: 720px;
+  background-image: url(../../img/index-background-desktop.jpg);
+  background-position: 0 0;
+  background-size: 720px 0px;
+}
+
+}
