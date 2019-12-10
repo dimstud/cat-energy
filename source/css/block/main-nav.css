@@ -1,9 +1,6 @@
 .main-nav {
   width: 320px;
 }
-.main-nav__list.site-list {
-  width: auto;
-}
 
 @media (min-width:768px){
 .main-nav {
@@ -14,10 +11,6 @@
 .main-nav__wrapper {
   width: auto;
 
-}
-.main-nav__list.site-list {
-  display: flex;
-  justify-content: space-between;
 }
 
 
