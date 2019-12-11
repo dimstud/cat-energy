@@ -9,10 +9,10 @@ Error: Undefined variable: "$tablet-width".
 39: 
 40: @media (min-width:$tablet-width){
 41:   .page-header {
-42: 
-43:   }
-44: 
-45:   .page-header__layout-container {
+42:     width: 768px;
+43:     padding-top: 24px;
+44:   }
+45: 
 
 Backtrace:
 C:\Users\Dimich\Documents\Projects\cat-energy\source\sass\block\page-header.scss:40
@@ -54,4 +54,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$tablet-width\".\A         on line 40 of C:\Users\Dimich\Documents\Projects\cat-energy\source\sass\block\page-header.scss\A \A 35: \A 36: .page-header__toggle {\A 37: }\A 38: \A 39: \A 40: @media (min-width:$tablet-width){\A 41:   .page-header {\A 42: \A 43:   }\A 44: \A 45:   .page-header__layout-container {"; }
+  content: "Error: Undefined variable: \"$tablet-width\".\A         on line 40 of C:\Users\Dimich\Documents\Projects\cat-energy\source\sass\block\page-header.scss\A \A 35: \A 36: .page-header__toggle {\A 37: }\A 38: \A 39: \A 40: @media (min-width:$tablet-width){\A 41:   .page-header {\A 42:     width: 768px;\A 43:     padding-top: 24px;\A 44:   }\A 45: "; }

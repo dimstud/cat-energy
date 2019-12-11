@@ -24,9 +24,14 @@ background-color: #ffffff;
 
 @media (min-width:$tablet-width){
 .site-list {
-
+  display: flex;
+  justify-content: space-between;
 }
 .site-list__item a {
+  border: none;
+
+  font-size: 18px;
+  font-weight: normal;
 
 }
 .site-list__item a:last-child {

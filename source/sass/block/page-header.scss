@@ -39,15 +39,24 @@
 
 @media (min-width:$tablet-width){
   .page-header {
-
+    width: 768px;
+    padding-top: 24px;
   }
 
   .page-header__layout-container {
+    width: 708px;
+    margin: 0 auto;
 
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .page-header__container {
+    border: none;
   }
 
   .page-header__toggle {
-
+    display: none;
   }
 
   .page-header__logo {
@@ -57,10 +66,12 @@
 
 @media (min-width:$desktop-width){
   .page-header {
-
+    width: 1440px;
+    padding-top: 54px;
   }
 
   .page-header__layout-container {
-
+    width: 1220px;
+    margin:0 auto;
   }
 }

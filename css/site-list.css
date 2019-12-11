@@ -9,10 +9,10 @@ Error: Undefined variable: "$tablet-width".
 24: 
 25: @media (min-width:$tablet-width){
 26: .site-list {
-27: 
-28: }
-29: .site-list__item a {
-30: 
+27:   display: flex;
+28:   justify-content: space-between;
+29: }
+30: .site-list__item a {
 
 Backtrace:
 C:\Users\Dimich\Documents\Projects\cat-energy\source\sass\block\site-list.scss:25
@@ -54,4 +54,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$tablet-width\".\A         on line 25 of C:\Users\Dimich\Documents\Projects\cat-energy\source\sass\block\site-list.scss\A \A 20:   padding-top: 24px;\A 21:   padding-bottom: 24px;\A 22:   border-bottom: 1px solid #e6e6e6;\A 23: }\A 24: \A 25: @media (min-width:$tablet-width){\A 26: .site-list {\A 27: \A 28: }\A 29: .site-list__item a {\A 30: "; }
+  content: "Error: Undefined variable: \"$tablet-width\".\A         on line 25 of C:\Users\Dimich\Documents\Projects\cat-energy\source\sass\block\site-list.scss\A \A 20:   padding-top: 24px;\A 21:   padding-bottom: 24px;\A 22:   border-bottom: 1px solid #e6e6e6;\A 23: }\A 24: \A 25: @media (min-width:$tablet-width){\A 26: .site-list {\A 27:   display: flex;\A 28:   justify-content: space-between;\A 29: }\A 30: .site-list__item a {"; }
