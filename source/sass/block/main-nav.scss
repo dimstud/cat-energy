@@ -1,0 +1,30 @@
+.main-nav {
+width: 320px;
+}
+
+.main-nav__wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav__list {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+@media (min-width:$tablet-width){
+  .main-nav {
+
+  }
+
+}
+
+
+@media (min-width:$desktop-width){
+  .main-nav {
+
+  }
+
+}

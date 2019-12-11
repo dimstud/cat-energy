@@ -1,11 +1,13 @@
-@charset "utf-8";
 .site-list {
   width: auto;
+
+background-color: #ffffff;
+}
+
+.site-list__item {
   list-style: none;
 }
-.site-list__item {
-  width: auto;
-}
+
 .site-list__item a {
   width: auto;
   font-weight: bold;
@@ -20,29 +22,24 @@
   border-bottom: 1px solid #e6e6e6;
 }
 
-@media (min-width:768px){
+@media (min-width:$tablet-width){
 .site-list {
-  width: 440px;
-  display: flex;
-  justify-content: space-between;
+
 }
 .site-list__item a {
-  margin-right: 36px;
-  font-size: 18px;
-  border: none;
-  font-weight: normal;
+
 }
 .site-list__item a:last-child {
-  margin-right: 0;
-}
-
-
 
 }
 
-@media (max-height:1440px){
+
+
+}
+
+@media (max-height:$desktop-width){
 .site-list {
-  width: 480px;
+
 }
 
 }
