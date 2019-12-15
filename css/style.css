@@ -112,7 +112,6 @@ img {
 @media (min-width: 1440px) {
   .main-nav {
     width: 478px; } }
-/* CSS Document */
 .site-list {
   width: auto;
   background-color: #ffffff; }
@@ -142,3 +141,10 @@ img {
     border: none;
     font-size: 18px;
     font-weight: normal; } }
+.page-main {
+  width: 320px;
+  padding-top: 26px;
+  margin: 0 auto; }
+
+.page-main__group {
+  width: 280px; }

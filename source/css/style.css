@@ -112,7 +112,6 @@ img {
   .main-nav {
     width: 478px; } }
 
-/* CSS Document */
 .site-list {
   width: auto;
   background-color: #ffffff; }
@@ -141,3 +140,11 @@ img {
     border: none;
     font-size: 18px;
     font-weight: normal; } }
+
+.page-main {
+  width: 100%;
+  overflow-x: hidden; }
+
+.page-main__title-block {
+  padding-top: 27px;
+  margin-bottom: 38px; }
