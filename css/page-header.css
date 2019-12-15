@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$tablet-width".
-        on line 40 of C:\Users\Dimich\Documents\Projects\cat-energy\source\sass\block\page-header.scss
+        on line 43 of C:\Users\Dimich\Documents\Projects\cat-energy\source\sass\block\page-header.scss
 
-35: 
-36: .page-header__toggle {
-37: }
 38: 
-39: 
-40: @media (min-width:$tablet-width){
-41:   .page-header {
-42:     width: 768px;
-43:     padding-top: 24px;
-44:   }
-45: 
+39: .page-header__toggle {
+40: }
+41: 
+42: 
+43: @media (min-width:$tablet-width){
+44:   .page-header {
+45:     width: 768px;
+46:     padding-top: 24px;
+47:     padding-bottom: 24px;
+48:   }
 
 Backtrace:
-C:\Users\Dimich\Documents\Projects\cat-energy\source\sass\block\page-header.scss:40
+C:\Users\Dimich\Documents\Projects\cat-energy\source\sass\block\page-header.scss:43
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:555:in `block in run_interp_no_strip'
@@ -54,4 +54,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$tablet-width\".\A         on line 40 of C:\Users\Dimich\Documents\Projects\cat-energy\source\sass\block\page-header.scss\A \A 35: \A 36: .page-header__toggle {\A 37: }\A 38: \A 39: \A 40: @media (min-width:$tablet-width){\A 41:   .page-header {\A 42:     width: 768px;\A 43:     padding-top: 24px;\A 44:   }\A 45: "; }
+  content: "Error: Undefined variable: \"$tablet-width\".\A         on line 43 of C:\Users\Dimich\Documents\Projects\cat-energy\source\sass\block\page-header.scss\A \A 38: \A 39: .page-header__toggle {\A 40: }\A 41: \A 42: \A 43: @media (min-width:$tablet-width){\A 44:   .page-header {\A 45:     width: 768px;\A 46:     padding-top: 24px;\A 47:     padding-bottom: 24px;\A 48:   }"; }

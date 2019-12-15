@@ -39,10 +39,13 @@ img {
 
 .page-header {
   width: 320px;
+  min-height: 66px;
   margin: 0 auto;
+  display: block;
   background-color: #ffffff; }
 
 .page-header__layout-container {
+  width: auto;
   margin: 0;
   padding: 0; }
 
@@ -61,7 +64,8 @@ img {
 @media (min-width: 768px) {
   .page-header {
     width: 768px;
-    padding-top: 24px; }
+    padding-top: 24px;
+    padding-bottom: 24px; }
   .page-header__layout-container {
     width: 708px;
     margin: 0 auto;
@@ -75,15 +79,24 @@ img {
 @media (min-width: 1440px) {
   .page-header {
     width: 1440px;
-    padding-top: 54px; }
+    padding-top: 54px;
+    padding-bottom: 30px; }
   .page-header__layout-container {
     width: 1220px;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  .page-header__container {
+    width: 202px; }
+  .page-header__logo {
+    width: auto; } }
 
 .main-nav {
-  width: 320px; }
+  width: auto;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; }
 
 .main-nav__wrapper {
+  width: auto;
   margin: 0;
   padding: 0; }
 
