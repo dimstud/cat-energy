@@ -2,9 +2,65 @@
   width: 320px;
   padding: 0;
   margin: 0 auto;
-  
+
 }
 
 .page-main__group {
   width: auto;
+  padding: 0;
+  margin: 0;
+
+}
+
+.page-main__group-text {
+  width: 320px;
+  height: 305px;
+  margin: 0 auto;
+  margin-bottom: 168px;
+  padding-top: 37px;
+
+  text-align: center;
+
+  background-color: #68b738;
+  background-image: url("../../img/index-background-mobile.img");
+  background-repeat: no-repeat;
+  background-position: center 0;
+}
+
+.food__title {
+  margin-bottom: 20px;
+
+  color: #ffffff;
+  font-size: 36px;
+  line-height: 42px;
+
+
+}
+
+.food__addition {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.page-main--image {
+  width: 280px;
+  height: 270px;
+  margin-top: -138px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-main__button {
+  width: 280px;
+  margin: 0 auto;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: block;
+
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  background-color: #68b738;
 }
