@@ -16,30 +16,24 @@
   padding-top: 37px;
   text-align: center;
   background-color: #68b738;
-  background-image: url("../../img/index-background-mobile.img");
+  background-image: url("../../img/index-background-mobile.jpg");
   background-repeat: no-repeat;
-  background-position: center 0; }
+  background-position: 0 50%; }
 
 .food__title {
   margin-bottom: 20px;
   color: #ffffff;
   font-size: 36px;
-  line-height: 42px; }
+  line-height: 36px; }
 
 .food__addition {
   font-size: 14px;
   color: #ffffff; }
 
-.page-main--image {
-  width: 280px;
-  height: 270px;
-  margin-top: -138px;
-  margin-left: auto;
-  margin-right: auto; }
-
 .page-main__button {
   width: 280px;
   margin: 0 auto;
+  margin-bottom: 22px;
   padding-top: 12px;
   padding-bottom: 12px;
   display: block;
