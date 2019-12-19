@@ -22,29 +22,35 @@ background-color: #ffffff;
   border-bottom: 1px solid #e6e6e6;
 }
 
-@media (min-width:$tablet-width){
+@media (min-width: 768px){
 .site-list {
   display: flex;
+  padding: 0;
   justify-content: space-between;
+  width: 440px;
 }
 .site-list__item a {
   border: none;
-
   font-size: 18px;
   font-weight: normal;
-
-}
-.site-list__item a:last-child {
-
-}
-
-
+  line-height: 24px;
 
 }
 
-@media (max-height:$desktop-width){
+
+
+
+}
+
+@media (min-width:1440px){
 .site-list {
+  background-color: #64a83b;
+
 
 }
+.site-list__item a {
+  color: #FFFFFF;
+}
+
 
 }

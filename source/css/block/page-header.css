@@ -40,7 +40,7 @@
 }
 
 
-@media (min-width:$tablet-width){
+@media (min-width:768px){
   .page-header {
     width: 768px;
     padding-top: 24px;
@@ -48,15 +48,15 @@
   }
 
   .page-header__layout-container {
-    width: 708px;
-    margin: 0 auto;
-
-    display: flex;
-    justify-content: space-between;
+  width: 708px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
   }
 
   .page-header__container {
-    border: none;
+  border: none;
+  width: 192px;
   }
 
   .page-header__toggle {
@@ -68,7 +68,7 @@
   }
 }
 
-@media (min-width:$desktop-width){
+@media (min-width:1440px){
   .page-header {
     width: 1440px;
     padding-top: 54px;

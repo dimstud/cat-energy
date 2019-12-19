@@ -1,0 +1,138 @@
+.page-main {
+  width: 320px;
+  padding: 0;
+  margin: 0 auto;
+
+}
+
+.page-main__group {
+  width: 320px;
+
+}
+
+.page-main__group-text {
+  width: 320px;
+  height: 305px;
+  padding-top: 37px;
+  text-align: center;
+  background-color: #68b738;
+  background-image: url("../../img/index-background-mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.food__title {
+  color: #ffffff;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: normal;
+
+
+}
+
+.food__addition {
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 14px;
+}
+
+
+.page-main__button {
+  width: 280px;
+  display: block;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #68b738;
+  margin: 0 auto;
+}
+.page-main--image {
+  display: block;
+  height: 270px;
+  width: 280px;
+  background-color: #fbc105;
+  margin-top: -137px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
+}
+
+
+@media (min-width:768px) {
+  .page-main {
+  width: 768px;
+  padding-left: 90px;
+  }
+  .page-main__group {
+  width: 618px;
+  margin: 0 auto;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .page-main__group-text {
+  width: 426px;
+  text-align: left;
+  background-image: none;
+  background-color: #ffffff;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 20px;
+  height: auto;
+
+  }
+.food__title {
+  color: #000000;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: normal;
+}
+.food__addition {
+  color: #000000;
+  font-size: 20px;
+  line-height: 20px;
+}
+.page-main--image {
+  margin-top: -80px;
+  width: 709px;
+  height: 609px;
+  order: 3;
+  z-index: 0;
+}
+.page-main__button {
+  margin: 0;
+  order: 2;
+  width: 240px;
+  z-index: 2;
+}
+
+
+
+
+}
+
+@media (min-width:1440px){
+.page-main {
+  padding: 0;
+  width: 1440px;
+}
+.page-main .page-main__group {
+  margin: 0 auto;
+  width: 1220px;
+  flex-direction: row;
+}
+.page-main__group-text {
+  width: 436px;
+}
+
+
+
+}

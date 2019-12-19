@@ -42,3 +42,15 @@
   text-decoration: none;
   text-transform: uppercase;
   background-color: #68b738; }
+
+@media (min-width: 768px) {
+  .page-main {
+    width: 768px; }
+
+  .page-main__group {
+    width: 708px;
+    padding-left: 90px; }
+
+  .page-main__group-text {
+    width: auto;
+    text-align: left; } }
