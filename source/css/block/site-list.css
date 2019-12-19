@@ -50,6 +50,8 @@ background-color: #ffffff;
 }
 .site-list__item a {
   color: #FFFFFF;
+  z-index: 20;
+  position: relative;
 }
 
 
