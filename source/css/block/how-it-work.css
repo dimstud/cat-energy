@@ -19,4 +19,8 @@
   font-family: Arial, sans-serif;
   font-size: 14px;
   line-height: 18px;
+}.how-it-work__icon {
+  display: block;
+  width: 60px;
+  height: 60px;
 }
