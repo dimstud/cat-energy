@@ -69,8 +69,7 @@
 
 @media (min-width:768px) {
   .page-main {
-  width: 768px;
-  padding-left: 90px;
+	width: 768px;
   }
   .page-main__group {
   width: 618px;

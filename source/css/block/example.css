@@ -50,6 +50,9 @@
 	padding-bottom: 16px;
 	border-radius: 3px;
 	text-transform: uppercase;
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: bold;
 }
 
 
@@ -75,4 +78,145 @@
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: bold;
+}
+.example__compare {
+	margin-top: 20px;
+	padding-bottom: 38px;
+}
+.example__image {
+	margin-bottom: 40px;
+}
+.example__toggle-line   {
+	display: flex;
+	justify-content: space-around;
+}
+.example__toggle {
+	border: none;
+	display: block;
+	background-color: #f2f2f2;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #111111;
+	font-family: Oswald;
+	text-transform: uppercase;
+}
+.example__button {
+	display: block;
+	width: 86px;
+	height: 14px;
+}
+
+@media (min-width:768px){
+.example {
+	width: 708px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+}
+.example__layout-container {
+	width: auto;
+}
+.example__title {
+	font-size: 60px;
+	line-height: 60px;
+}
+.example__description {
+	font-size: 16px;
+	line-height: 24px;
+	padding-right: 28px;
+}
+.example__container {
+	display: flex;
+	justify-content: space-between;
+}
+.exemple__group {
+	margin-bottom: 236px;
+}
+
+.example__list {
+	width: 345px;
+}
+.example__item {
+	width: 162px;
+}
+.example__value {
+	font-size: 16px;
+}
+.example__field {
+	background-color: #ffffff;
+}
+.example__price {
+	display: flex;
+	flex-direction: column;
+	font-size: 20px;
+	text-align: right;
+}
+.example__price span {
+	margin-bottom: 10px;
+}
+.example__compare {
+	background-color: #eaeaea;
+	height: 462px;
+}
+
+.example__image {
+	width: 677px;
+	height: 499px;
+	margin-top: -158px;
+}
+.example__toggle {
+	background-color: #ffffff;
+	font-size: 20px;
+}
+
+.example__button   {
+	width: 429px;
+	height: 6px;
+	padding-top: 0px;
+	margin-top: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (min-width:1440px){
+.example {
+	width: 1440px;
+	background-color: #f2f2f2;
+	margin: 0;
+	height: 462px;
+}
+.example__layout-container {
+	width: 1220px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+	display: flex;
+
+}
+.exemple__group {
+	padding: 0;
+	margin: 0;
+	width: 434px;
+}
+.example__title {
+	width: auto;
+}
+
+
+
+
 }
