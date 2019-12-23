@@ -9,29 +9,50 @@
   list-style: none;
 }
 
+
 .advantages__item {
   width: auto;
   margin-bottom: 20px;
   padding-top: 22px;
   padding-bottom: 22px;
-
   text-align: left;
-
   background-color: #f2f2f2;
 }
 
 .advantages__title {
-  width: 240px;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: 92px;
   margin-bottom: 25px;
-
   font-weight: bold;
   text-transform: uppercase;
   font-size: 24px;
   line-height: 37px;
   color: #000000;
+  position: relative;
 }
+.advantages__item--slim h3::before  {
+  content: "";
+  width: 50px;
+  height: 53px;
+  display: block;
+  background-image: url(../../img/advent_cat_1.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -70px;
+  top: -7px;
+}
+.advantages__item--pro h3::before {
+  content: "";
+  width: 67px;
+  height: 50px;
+  display: block;
+  background-image: url(../../img/advent_cat_2.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -78px;
+  top: -7px;
+}
+
 
 
 .advantages__description {
@@ -63,6 +84,11 @@
   text-decoration: none;
   color: #000000;
 }
+.advantages__button img {
+  margin-left: 10px;
+
+}
+
 
 @media (min-width:768px){
 .advantages   {
@@ -88,6 +114,21 @@
   margin-bottom: 30px;
   font-weight: normal;
 }
+.advantages__item--slim h3::before {
+  background-image: url(../../img/advent_cat_1_tablet.png);
+  width: 200px;
+  height: 213px;
+  left: 396px;
+  top: 15px;
+}
+.advantages__item--pro h3::before {
+  background-image: url(../../img/advent_cat_2_tablet.png);
+  width: 270px;
+  height: 200px;
+  left: 359px;
+}
+
+
 .advantages__description {
   margin-top: 0;
   margin-right: 0;
@@ -99,12 +140,22 @@
   border: none;
   width: 372px;
 }
+.advantages__item--pro p  {
+  max-width: 342px;
+
+}
+
 .advantages__button {
   font-size: 20px;
   padding: 0;
   margin: 0;
   line-height: 20px;
 }
+.advantages__button img {
+  margin-left: 20px;
+  padding-bottom: 4px;
+}
+
 
 
 
@@ -126,7 +177,6 @@
 }
 .advantages__item {
   width: 570px;
-  margin: 0;
   padding: 0;
   display: block;
   min-height: 373px;
@@ -134,18 +184,40 @@
 }
 .advantages__title {
   padding: 0;
-  margin-top: 40px;
+  margin-top: 80px;
   margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 80px;
+  margin-left: 216px;
   font-weight: normal;
+  margin-bottom: 80px;
 }
+.advantages__item--slim h3::before {
+  width: 100px;
+  height: 106px;
+  background-image: url(../../img/advent_cat_1_dsctop.png);
+  left: -161px;
+  top: -36px;
+  margin-top: 0px;
+}
+.advantages__item--pro h3::before {
+  width: 134px;
+  height: 100px;
+  background-image: url(../../img/advent_cat_2_desctop.png);
+  left: -181px;
+  top: -25px;
+}
+
+
 .advantages__description {
   margin-left: 52px;
   margin-right: 0px;
   margin-bottom: 40px;
   width: 466px;
 }
+.advantages__item--pro p {
+  min-width: 456px;
+
+}
+
 .advantages__button {
   margin-left: 52px;
   line-height: 20px;
@@ -153,6 +225,7 @@
   font-weight: normal;
   margin-right: 0px;
 }
+
 
 
 
