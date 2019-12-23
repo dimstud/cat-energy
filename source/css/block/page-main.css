@@ -1,3 +1,9 @@
+.page-main {
+  width: 320px;
+  padding: 0;
+  margin: 0 auto;
+
+}
 .page-main__group {
   width: 320px;
   padding-bottom: 22px;
@@ -157,11 +163,5 @@
 
 
 
-
-}
-.page-main {
-  width: 320px;
-  padding: 0;
-  margin: 0 auto;
 
 }
