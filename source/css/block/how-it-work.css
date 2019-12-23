@@ -8,6 +8,7 @@
   font-size: 36px;
   line-height: 60px;
   font-weight: normal;
+  color: #111111;
 }
 
 .how-it-work__list {
@@ -33,6 +34,7 @@
   font-family: Arial;
   font-weight: normal;
   text-align: left;
+  color: #444444;
 }
 .how-it-work__icon {
   display: block;

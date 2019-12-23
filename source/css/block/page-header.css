@@ -26,6 +26,7 @@
 }
 
 .page-header__logo {
+  cursor: pointer;
 
 }
 
@@ -35,9 +36,28 @@
 
 .page-header__name-image {
 }
-
-.page-header__toggle {
+.page-header__toggle--opened  {
+  display: block;
+  width: 24px;
+  height: 18px;
+  background-image: url(../../img/mobile-menu.png);
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+  background-repeat: no-repeat;
 }
+.page-header__toggle--closed   {
+  display: block;
+  width: 18px;
+  height: 18px;
+  background-image: url(../../img/m-close.png);
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+
 
 
 @media (min-width:768px){
