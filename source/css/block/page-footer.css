@@ -103,3 +103,47 @@
 	font-weight: normal;
 	font-family: Arial;
 }
+
+@media (min-width:768px){
+.page-footer {
+	width: 768px;
+}
+.page-footer__address {
+	width: 628px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 57px;
+	padding-bottom: 50px;
+}
+.address__layout-container {
+	padding: 0;
+	margin: 0;
+
+}
+.address__container {
+	padding: 0;
+	margin: 0;
+	justify-content: space-between;
+}
+
+.address__invitation {
+	width: 156px;
+	font-size: 20px;
+	line-height: 25px;
+}
+.address__address {
+	width: 156px;
+	font-size: 16px;
+	line-height: 20px;
+}
+.address__address span {
+	margin-top: 24px;
+	display: block;
+}
+
+
+
+
+
+
+}
