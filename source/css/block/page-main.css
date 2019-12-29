@@ -4,6 +4,23 @@
   margin: 0 auto;
 
 }
+.page-main__container {
+	padding: 0;
+	margin: 0;
+}
+.page-main__title-block {
+	width: 280px;
+	text-align: left;
+}
+.page-main__title.title {
+	color: #111111;
+	font-size: 36px;
+	line-height: 60px;
+	font-weight: normal;
+}
+
+
+
 .page-main__group {
   width: 320px;
   padding-bottom: 22px;
